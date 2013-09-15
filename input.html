@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta content="这里是网页内容描述" name="Description">
+    <meta content="这里是网页关键字" name="Keywords">
+    <link rel="stylesheet" type="text/css" href="css/gbJq.css">
+    
+    <script type="text/javascript">
+       window.onload = function(){
+        var oInput = document.getElementById("text2");
+         var txt =  getDom.getStyle(oInput,"width","300px")
+       }
+    </script>
+</head>	
+<body>
+	<h2>input提示</h2></br>
+    <div style="width:600px; margin:0 auto;">
+        <input type="text" id="text" value="请输入用户名" gbplace="true" /></br> <!-- placeholder 为HTML5新加属性 -->
+        <input type="password" id="text2" placeholder="请输入密码"  />
+        <input type="password" id="text3" value="请输入密码"  gbplace="true" />
+    </div>
+    <script type="text/javascript" src="js/gbJq.js"></script>
+    <script type="text/javascript">
+        gbJq.placeholder("#FFECC1","#011D3B");//第一个值设置未点击前颜色（可不填），第二个值设置点击后颜色（可不填）
+    </script>
+</body>
+</html>
+

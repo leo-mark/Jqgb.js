@@ -1,0 +1,35 @@
+
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,
+pre,code,
+form,fieldset,legend,input,button,textarea,
+p,blockquote,
+th,td{margin: 0; padding:0;  list-style: none; color: }
+body, button, input, select, textarea {font:12px/1.5 "微软雅黑",Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif; }
+a{color:#838383;}
+/* --------------------无缝滚动------------------- */
+
+.boxtyle{ width: 1150px;height: 80px; border: 1px solid #000; margin: 10px auto 0; overflow: hidden; position: relative;}
+.boxtyle ul { height: 80px; position: absolute;}
+.boxtyle ul li{ float: left; height: 80px; width: 230px;}
+h2{width: 1150px; margin: 40px auto 0; }
+.orientation{width: 1150px; margin: 10px auto 0; text-align: center;font-size: 15px;}
+
+/* --------------------固定右侧------------------- */
+body{height: 2000px;}
+.fixedty{width: 100px; height: 100px; background:#272822; position:absolute; right: 0; bottom: 0px;}
+
+/* --------------------弹框------------------- */
+#pop-bg{ position:absolute; top:0; left:0; background:#000; opacity:0.4; filter:alpha(opacity=40); z-index:9999; display: none;}
+.pop{width: 482px; background: #fff; position: absolute; z-index: 99999; border: 1px solid #fff; border-radius: 5px; display: none;}
+.pop_header{width: 482px; height: 37px; background: url(../images/tang-header.png) no-repeat; position: relative; border-bottom: 1px solid #fff;}
+.pop_header h3{ font-size: 16px; color: #6482AD; text-indent: 10px; padding-top: 8px; font-weight: normal; cursor:move;}
+.pop_header .close{position: absolute; display: block; top: 10px; right: 10px; width: 12px; height: 12px; background:url(../images/top.png) no-repeat 0px -373px; cursor: pointer;}
+.pop_header .close:hover{background-position:0px -405px; }
+.pop_main{width: 442px;background: #fff; border-top: #E8E8E8 1px solid; padding: 20px;color: #494949;}
+.pop_main p{font-size: 14px; font-weight: bold; }
+.pop_main div{height: 20px; width: 442px; margin-top:10px;}
+.pop_main div span{float: left; display: block; font-size: 12px; margin-left: 10px; height: 18px;}
+.pop_main div span input{vertical-align:-2px; margin-right: 10px;}
+.pop_main div .bao_name{width: 258px; overflow: hidden;}
+.pop_main a{display: block; width: 120px; height: 40px; margin: 10px auto; background:#6482AD; color: #fff; text-align: center; line-height: 40px;} 
